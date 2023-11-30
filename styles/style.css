@@ -1,0 +1,92 @@
+*{
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #010A64;
+    margin: 0;
+    font-family: Consolas,Hack,"Liberation Mono",monospace;
+    color: #ECFA86;
+
+}
+img {
+    width: 50%;
+}
+nav {
+    background-color:#A40E87;
+    display: flex;
+}
+/*  dit is de layout van de nav-bar zelf */
+nav li {
+    background-color: #574D80;
+    display: flex;
+    font-size: 17px;
+    font-family: Consolas,Hack,"Liberation Mono",monospace;
+    margin-right: 0.5em;
+    margin-top: 0.5em;
+    float: left;
+    padding: 0.5em;
+    border-radius: 2em;
+    border: #CF85CA 4px;
+}
+/* Dit is de layout van de list */
+nav ul {
+    margin-left: auto;
+    padding-right: 20px;
+    display: flex;
+}
+
+nav li a {
+    text-decoration: none;
+    color: azure;
+}
+
+
+nav a {
+    color: rgb(130, 104, 140);
+}
+
+a:hover{
+    color: #ECFA86;
+    transition: 0.5s;
+    }
+
+main{
+    margin: 4.5em 4.5em 4.5em 4.5em;
+    background-color: #010A64;
+    padding: 0.5em 0.5em 0.5em 0.5em;;
+   
+}
+footer{
+    margin: 4.5em;
+    background-color: #B8DA9B;
+}
+p{
+    margin-right: 5em;
+    align-items: center;
+    font-weight: 700;
+}
+
+footer img{
+    width: 20px;
+}
+
+p:nth-child(4){
+    color: white;
+}
+
+#favs main section{
+    display:flex;
+    justify-content: space-between;
+}
+
+#favs main img {
+    width: 30%;
+    /* margin-right: 2em; */
+}
+
+/* #favs section section{
+    display:block;
+} */
+
