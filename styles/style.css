@@ -19,16 +19,7 @@ nav {
 }
 /*  dit is de layout van de nav-bar zelf */
 nav li {
-    background-color: #574D80;
-    display: flex;
-    font-size: 17px;
-    font-family: Consolas,Hack,"Liberation Mono",monospace;
-    margin-right: 0.5em;
-    margin-top: 0.5em;
-    float: left;
-    padding: 0.5em;
-    border-radius: 2em;
-    border: #CF85CA 4px;
+    list-style-type: none;
 }
 /* Dit is de layout van de list */
 nav ul {
@@ -40,6 +31,12 @@ nav ul {
 nav li a {
     text-decoration: none;
     color: azure;
+    background-color: #574D80;
+    font-size: 17px;
+    margin-right: 0.5em;
+    padding: 0.5em;
+    border-radius: 2em;
+    border: #CF85CA 4px;
 }
 
 
@@ -90,3 +87,17 @@ p:nth-child(4){
     display:block;
 } */
 
+
+.button {
+    font-size: 2em;
+    font-family: Consolas,Hack,"Liberation Mono",monospace;
+    color: black;
+    padding: 0.5em;
+    border: 4px solid #CF85CA;
+    border-radius: 0.3em;
+    text-decoration: none;
+}
+
+.jurken {
+    display: flex;
+}
