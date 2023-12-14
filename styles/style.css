@@ -358,62 +358,72 @@ footer img {
     display: flex;
 }
 
-.broek1 img{
+.midrise{
     display: block;
-    padding-right: 2em;
-    width: 100%;
+    width: 22.5%;
 }
-.broek1 p{
+.midrise img{
+    display: block;
+    width: 90%;
+}
+.midrise p{
     width: 90%;
     color: #010A64;
 }
 
-.broek1 li{
+.midrise li{
     list-style-type: none;
-    text-align: left;
+    text-align: center;
 }
 
-.broek2 img{
+.boyfriend{
+    width: 22.5%;
+}
+.boyfriend img{
     display: block;
-    width: 91.5%;
+    width: 90%;
 }
 
-.broek2 p{
+.boyfriend p{
     width: 90%;
     color: #010A64;
 }
 
-.broek2 li{
+.boyfriend li{
     list-style-type: none;
     text-align: left;
 }
 
-.broek3 img{
+.bootcut{
+    width: 22.5%;
+}
+.bootcut img{
     display: block;
-    width: 80.5%;
+    width: 90%;
 }
 
-.broek3 p{
+.bootcut p{
     width: 90%;
     color: #010A64;
 }
 
-.broek3 li {
+.bootcut li {
     list-style-type: none;
     text-align: left;
 }
 
-.broek4 img {
-    display: block;
-    padding-right: 2em;
-    width: 113%;
+.highwaist{
+    width: 22.5%;
 }
-.broek4 p{
-    width: 100%;
+.highwaist img {
+    display: block;
+    width: 90%;
+}
+.highwaist p{
+    width: 90%;
     color: #010A64;
 }
-.broek4 li{
+.highwaist li{
     list-style-type: none;
     text-align: left;
 }
-
