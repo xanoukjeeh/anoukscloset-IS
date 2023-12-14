@@ -360,6 +360,7 @@ footer img {
 
 .broek1 img{
     display: block;
+    padding-right: 2em;
     width: 100%;
 }
 .broek1 p{
@@ -404,7 +405,8 @@ footer img {
 
 .broek4 img {
     display: block;
-    width: 111%;
+    padding-right: 2em;
+    width: 113%;
 }
 .broek4 p{
     width: 100%;
