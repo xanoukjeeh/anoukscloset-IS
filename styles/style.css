@@ -432,4 +432,50 @@ footer img {
 
 .musthaves2{
     display: flex;
+    justify-content: center;
+    background-color: #A40E87;
+}
+.jas1{
+    display: block;
+    width: 22.5%;
+}
+.jas1 img{
+    display: block;
+    width: 90%;
+}
+.jas1 li{
+    list-style-type: none;
+}
+.jas2{
+    display: block;
+    width: 22.5%;
+}
+.jas2 img{
+    display: block;
+    width: 90%;
+}
+.jas2 li{
+    list-style-type: none;
+}
+.jas3{
+    display: block;
+    width: 22.5%;
+}
+.jas3 img{
+    display: block;
+    width: 90%;
+}
+.jas3 li{
+    list-style-type: none;
+}
+.jas4{
+    display: block;
+    width: 22.5%;
+}
+.jas4 img{
+    display: block;
+    width: 90%;
+}
+.jas4 li{
+    list-style-type: none;
 }
