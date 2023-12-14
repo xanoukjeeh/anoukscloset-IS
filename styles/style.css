@@ -16,6 +16,7 @@ body {
     border-radius: 50%;
 }
 
+
 /*dit gaat over de nav */
 nav {
     background-color: #A40E87;
@@ -98,7 +99,10 @@ nav ul li a:hover {
 .index ul li a{
     text-decoration: none;
     color: #8695fa;
-    padding: 2em;
+}
+
+.index ul li a:hover {
+    color: #ECFA86;
 }
 .index li {
     list-style-type: none;
@@ -147,34 +151,34 @@ nav ul li a:hover {
 .hartjes img:nth-of-type(2){
     width: 8%;
     animation-name: bonk;
-    animation-duration: 2s;
+    animation-duration: 1s;
     animation-delay: 2s;
 }
 
 .hartjes img:nth-of-type(3){
     width: 8%;
     animation-name: bonk;
-    animation-duration: 3s;
-    animation-delay: 2s;
+    animation-duration: 1s;
+    animation-delay: 3s;
 }
 
 .hartjes img:nth-of-type(4){
     width: 8%;
     animation-name: bonk;
-    animation-duration: 4s;
-    animation-delay: 2s;
+    animation-duration: 1s;
+    animation-delay: 4s;
 }
 .hartjes img:nth-of-type(5){
     width: 8%;
     animation-name: bonk;
-    animation-duration: 5s;
-    animation-delay: 2s;
+    animation-duration: 1s;
+    animation-delay: 5s;
 }
 .hartjes img:last-of-type{
     width: 8%;
     animation-name: bonk;
-    animation-duration: 6s;
-    animation-delay: 2s;
+    animation-duration: 1s;
+    animation-delay: 6s;
 }
 
 .index aside {
@@ -334,9 +338,6 @@ footer img {
     border-bottom: solid #A40E87 3px;
     padding: 0.5em;
 }
-.musthaves1{
-    display: flex;
-}
 
 .musthaves h1, h2,h3{
     font-family: 'Funkhouse', cursive;
@@ -353,23 +354,64 @@ footer img {
     color: #A40E87;
 }
 
-
-.midrise img{
-    display: block;
-    width: 90%;
+.musthaves1{
+    display: flex;
 }
 
-.boyfriend img{
+.broek1 img{
     display: block;
+    width: 100%;
+}
+.broek1 p{
     width: 90%;
+    color: #010A64;
 }
 
-.bootcut img{
-    display: block;
-    width: 90%;
+.broek1 li{
+    list-style-type: none;
+    text-align: left;
 }
 
-.highwaist img {
+.broek2 img{
     display: block;
-    width: 90%;
+    width: 91.5%;
 }
+
+.broek2 p{
+    width: 90%;
+    color: #010A64;
+}
+
+.broek2 li{
+    list-style-type: none;
+    text-align: left;
+}
+
+.broek3 img{
+    display: block;
+    width: 80.5%;
+}
+
+.broek3 p{
+    width: 90%;
+    color: #010A64;
+}
+
+.broek3 li {
+    list-style-type: none;
+    text-align: left;
+}
+
+.broek4 img {
+    display: block;
+    width: 111%;
+}
+.broek4 p{
+    width: 100%;
+    color: #010A64;
+}
+.broek4 li{
+    list-style-type: none;
+    text-align: left;
+}
+
