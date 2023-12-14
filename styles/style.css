@@ -118,6 +118,9 @@ nav ul li a:hover {
 .index .gifanouk {
     width: 40%;
 }
+.index h2{
+    text-align: left;
+}
 
 .index .button {
     font-size: 1em;
@@ -134,47 +137,45 @@ nav ul li a:hover {
     background-color: #d106c3;
 }
 
-/* .hartjes img:first-of-type{
-    display: flex;
-    margin: 1em auto;
-} */
-
-.hartjes img:nth-of-type(2){
+.hartjes img:first-of-type{
     width: 8%;
     animation-name: bonk;
     animation-duration: 1s;
     animation-delay: 1s;
 }
 
-.hartjes img:nth-last-of-type(3){
+.hartjes img:nth-of-type(2){
     width: 8%;
     animation-name: bonk;
-    animation-duration: 1s;
+    animation-duration: 2s;
     animation-delay: 2s;
 }
 
-.hartjes img:nth-last-of-type(4){
+.hartjes img:nth-of-type(3){
     width: 8%;
     animation-name: bonk;
-    animation-duration: 1s;
+    animation-duration: 3s;
     animation-delay: 2s;
 }
 
-.hartjes img:nth-last-of-type(5){
+.hartjes img:nth-of-type(4){
     width: 8%;
     animation-name: bonk;
-    animation-duration: 1s;
+    animation-duration: 4s;
     animation-delay: 2s;
 }
-
-.hartjes img:nth-last-of-type(6){
+.hartjes img:nth-of-type(5){
     width: 8%;
     animation-name: bonk;
-    animation-duration: 1s;
+    animation-duration: 5s;
     animation-delay: 2s;
 }
-
-
+.hartjes img:last-of-type{
+    width: 8%;
+    animation-name: bonk;
+    animation-duration: 6s;
+    animation-delay: 2s;
+}
 
 .index aside {
     background-color: #d106c3;
