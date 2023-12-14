@@ -134,73 +134,47 @@ nav ul li a:hover {
     background-color: #d106c3;
 }
 
-.index section div:nth-of-type(2) {
+/* .hartjes img:first-of-type{
     display: flex;
     margin: 1em auto;
-}
+} */
 
-.index section div:nth-of-type(2) svg:first-of-type {
+.hartjes img:nth-of-type(2){
     width: 8%;
     animation-name: bonk;
     animation-duration: 1s;
     animation-delay: 1s;
 }
 
-.index section div:nth-of-type(2) svg:nth-of-type(2) {
+.hartjes img:nth-last-of-type(3){
     width: 8%;
     animation-name: bonk;
     animation-duration: 1s;
     animation-delay: 2s;
 }
 
-.index section div:nth-of-type(2) svg:nth-of-type(3) {
+.hartjes img:nth-last-of-type(4){
     width: 8%;
     animation-name: bonk;
     animation-duration: 1s;
-    animation-delay: 3s;
+    animation-delay: 2s;
 }
 
-.index section div:nth-of-type(2) svg:nth-of-type(4) {
+.hartjes img:nth-last-of-type(5){
     width: 8%;
     animation-name: bonk;
     animation-duration: 1s;
-    animation-delay: 4s;
+    animation-delay: 2s;
 }
 
-.index section div:nth-of-type(2) svg:nth-of-type(5) {
+.hartjes img:nth-last-of-type(6){
     width: 8%;
     animation-name: bonk;
     animation-duration: 1s;
-    animation-delay: 5s;
+    animation-delay: 2s;
 }
 
-.index section div:nth-of-type(2) svg:nth-of-type(6) {
-    width: 8%;
-    animation-name: bonk;
-    animation-duration: 1s;
-    animation-delay: 6s;
-}
 
-.index section div:nth-of-type(2) svg:nth-of-type(7) {
-    width: 8%;
-    animation-name: bonk;
-    animation-duration: 1s;
-    animation-delay: 7s;
-}
-
-.index section div:nth-of-type(2) svg:nth-of-type(8) {
-    width: 8%;
-    animation-name: bonk;
-    animation-duration: 1s;
-    animation-delay: 8s;
-}
-
-.index section div:nth-of-type(2) svg:nth-of-type(9) {
-    width: 8%;
-    animation-name: bonk;
-    animation-duration: 1s;
-    animation-delay: 9s;
-}
 
 .index aside {
     background-color: #d106c3;
