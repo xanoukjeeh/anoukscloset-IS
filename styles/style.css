@@ -3,9 +3,7 @@
     box-sizing: border-box;
 }
 
-.index h1,
-h2,
-h3 {
+.index h1,h2{
     font-family: 'Funkhouse', cursive;
     display: block;
 }
@@ -81,9 +79,29 @@ nav ul li a:hover {
     padding: 1em;
 }
 
+.index h1{
+    font-size: 50px;
+    margin: 0;
+}
 .index h2 {
     margin-top: 0.5em;
     display: block;
+}
+
+.fotoauto{
+    display: flex;
+}
+.fotoauto p{
+    padding: 1.5em;
+    text-align: center;
+}
+.index ul li a{
+    text-decoration: none;
+    color: #8695fa;
+    padding: 2em;
+}
+.index li {
+    list-style-type: none;
 }
 
 .index main p {
@@ -100,7 +118,6 @@ nav ul li a:hover {
 .index .gifanouk {
     width: 40%;
 }
-
 
 .index .button {
     font-size: 1em;
@@ -219,7 +236,7 @@ nav ul li a:hover {
     transition: 0.5s;
 }
 
-/* footer informatie */
+/* footer informatie index */
 footer {
     background-color: #010A64;
     border: solid #CF85CA 4px;
@@ -276,31 +293,33 @@ footer img {
 
 /* de vormgeving van favorieten.html */
 .favorieten {
-    width: 80%;
-    background-color: #A40E87;
+    display: block;
+    margin: 0 4.5em 4.5em 4.5em;
+    width: 90%;
+    background-color: #d106c3;
     border-right: solid #CF85CA 3px;
-    align-self: center;
-    padding: 2em;
+    border-left: solid #CF85CA 3px;
+    border-bottom: solid #CF85CA 3px;
+    padding: 0.5em;
 }
 
 .favorieten article {
     display: flex;
-    background-color: #CF85CA;
+    background-color: #A40E87;
     padding: 2em;
 }
-
-.favorieten h1 {
+.favorieten h1, h2,h3{
     font-family: 'Funkhouse', cursive;
 }
 
 .favorieten h1 {
-    font-family: 'Funkhouse', cursive;
     text-align: center;
+    font-size: 50px;
 }
 
 .favorieten h2 {
     font-size: 40px;
-    color: #010A64;
+    color: #ECFA86;
 }
 
 .favorieten h3 {
@@ -319,15 +338,69 @@ footer img {
     list-style-type: none;
 }
 
+.jurken2{
+    background-color: #CF85CA;
+    border: solid #CF85CA 2px;
+    padding-left: 2em;
+}
 .jurken2 img {
     width: 50%;
 }
-.favorieten aside{
-background-color: #d106c3;
-display: block;
-width: 25%;
-height: 100%;
-padding: 1.5em;
-border-bottom: solid #CF85CA 4px;
-border-right: solid #CF85CA 4px;
+
+/* must haves vormgeving */
+
+.musthaves {
+    display: block;
+    margin: 0 4.5em 4.5em 4.5em;
+    width: 90%;
+    background-color: #CF85CA;
+    border-right: solid #A40E87 3px;
+    border-left: solid #A40E87 3px;
+    border-bottom: solid #A40E87 3px;
+    padding: 0.5em;
+}
+.musthaves1{
+    display: flex;
+}
+.musthaves h1, h2{
+    display: block;
+}
+
+.musthaves h1, h2,h3{
+    font-family: 'Funkhouse', cursive;
+}
+
+.musthaves h1 {
+    text-align: center;
+    font-size: 50px;
+}
+
+.musthaves h2 {
+    text-align: center;
+    font-size: 40px;
+    color: #A40E87;
+}
+
+.musthaves h3 {
+    text-align: center;
+}
+
+.midrise img{
+    display: block;
+    width: 90%;
+}
+
+.boyfriend img{
+    display: block;
+    width: 90%;
+}
+
+.bootcut img{
+    display: block;
+    width: 90%;
+}
+
+.highwaist img {
+    display: block;
+    width: 90%;
 }
