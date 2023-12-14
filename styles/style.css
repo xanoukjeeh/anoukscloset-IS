@@ -356,6 +356,7 @@ footer img {
 
 .musthaves1{
     display: flex;
+    justify-content: center;
 }
 
 .midrise{
@@ -378,6 +379,7 @@ footer img {
 
 .boyfriend{
     width: 22.5%;
+    align-items: center;
 }
 .boyfriend img{
     display: block;
@@ -426,4 +428,8 @@ footer img {
 .highwaist li{
     list-style-type: none;
     text-align: left;
+}
+
+.musthaves2{
+    display: flex;
 }
