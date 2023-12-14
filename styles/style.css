@@ -362,28 +362,22 @@ footer img {
 .musthaves1{
     display: flex;
 }
-.musthaves h1, h2{
-    display: block;
-}
 
 .musthaves h1, h2,h3{
     font-family: 'Funkhouse', cursive;
+    display: block;
+    text-align: center;
 }
 
 .musthaves h1 {
-    text-align: center;
     font-size: 50px;
 }
 
 .musthaves h2 {
-    text-align: center;
     font-size: 40px;
     color: #A40E87;
 }
 
-.musthaves h3 {
-    text-align: center;
-}
 
 .midrise img{
     display: block;
