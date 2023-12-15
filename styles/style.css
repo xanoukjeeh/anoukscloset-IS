@@ -365,9 +365,18 @@ footer img {
     justify-content: center;
 }
 
+/* animaties van https://codepen.io/IanLunn/pen/AxBReL */
 .broek1{
     display: block;
     width: 22.5%;
+}
+.broek1:hover{
+        display: inline-block;
+        transition-duration: .5s;
+        transition-property: transform;
+        transform: translateY(-10px);
+        animation-name: hover;
+        animation-duration: 1.5s;
 }
 .broek1 img{
     display: block;
@@ -387,6 +396,15 @@ footer img {
     width: 22.5%;
     align-items: center;
 }
+
+.broek2:hover{
+    display: inline-block;
+    transition-duration: .5s;
+    transition-property: transform;
+    transform: translateY(-10px);
+    animation-name: hover;
+    animation-duration: 1.5s;
+}
 .broek2 img{
     display: block;
     width: 90%;
@@ -405,6 +423,14 @@ footer img {
 .broek3{
     width: 22.5%;
 }
+.broek3:hover{
+    display: inline-block;
+    transition-duration: .5s;
+    transition-property: transform;
+    transform: translateY(-10px);
+    animation-name: hover;
+    animation-duration: 1.5s;
+}
 .broek3 img{
     display: block;
     width: 90%;
@@ -419,9 +445,16 @@ footer img {
     list-style-type: none;
     text-align: left;
 }
-
 .broek4{
     width: 22.5%;
+}
+.broek4:hover{
+    display: inline-block;
+    transition-duration: .5s;
+    transition-property: transform;
+    transform: translateY(-10px);
+    animation-name: hover;
+    animation-duration: 1.5s;
 }
 .broek4 img {
     display: block;
@@ -445,6 +478,14 @@ footer img {
     display: block;
     width: 22.5%;
 }
+.jas1:hover{
+    display: inline-block;
+    transition-duration: .5s;
+    transition-property: transform;
+    transform: translateY(-10px);
+    animation-name: hover;
+    animation-duration: 1.5s;
+}
 .jas1 img{
     display: block;
     width: 90%;
@@ -455,6 +496,14 @@ footer img {
 .jas2{
     display: block;
     width: 22.5%;
+}
+.jas2:hover{
+    display: inline-block;
+    transition-duration: .5s;
+    transition-property: transform;
+    transform: translateY(-10px);
+    animation-name: hover;
+    animation-duration: 1.5s;
 }
 .jas2 img{
     display: block;
@@ -467,6 +516,14 @@ footer img {
     display: block;
     width: 22.5%;
 }
+.jas3:hover{
+    display: inline-block;
+    transition-duration: .5s;
+    transition-property: transform;
+    transform: translateY(-10px);
+    animation-name: hover;
+    animation-duration: 1.5s;
+}
 .jas3 img{
     display: block;
     width: 90%;
@@ -477,6 +534,14 @@ footer img {
 .jas4{
     display: block;
     width: 22.5%;
+}
+.jas4:hover{
+    display: inline-block;
+    transition-duration: .5s;
+    transition-property: transform;
+    transform: translateY(-10px);
+    animation-name: hover;
+    animation-duration: 1.5s;
 }
 .jas4 img{
     display: block;
@@ -496,8 +561,16 @@ footer img {
     /* border-right: solid #A40E87 3px;
     border-left: solid #A40E87 3px;
     border-bottom: solid #A40E87 3px; */
-    border: solid #A40E87 3px;
+    border: solid #A40E87 10px;
 }
 .contact h1, p{
     text-align: center;
+    display: block;
+}
+.contact section{
+    display: block;
+}
+.contact section img{
+    width: 30%;
+    padding-left: 40px;
 }
