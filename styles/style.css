@@ -479,3 +479,20 @@ footer img {
 .jas4 li{
     list-style-type: none;
 }
+
+
+/* main vormgeving */
+.contact{
+    display: block;
+    margin: 0 4.5em 4.5em 4.5em;
+    width: 90%;
+    background-color: #CF85CA;
+    border-right: solid #A40E87 3px;
+    border-left: solid #A40E87 3px;
+    border-bottom: solid #A40E87 3px;
+    /* padding: 0.5em; */
+}
+.contact form{
+    margin: 1em;
+    justify-content: center;
+}
