@@ -303,6 +303,7 @@ footer img {
 
 .favorieten h3 {
     color: #ECFA86;
+    text-align: left;
 }
 
 .jurken img {
@@ -311,6 +312,7 @@ footer img {
 
 .jurken p {
     padding-right: 6em;
+    text-align: left;
 }
 
 .jurken ul li {
@@ -324,6 +326,10 @@ footer img {
 }
 .jurken2 img {
     width: 50%;
+}
+.jurken2 p{
+    padding-right: 6em;
+    text-align: left;
 }
 
 /* must haves vormgeving */
@@ -359,73 +365,73 @@ footer img {
     justify-content: center;
 }
 
-.midrise{
+.broek1{
     display: block;
     width: 22.5%;
 }
-.midrise img{
+.broek1 img{
     display: block;
     width: 90%;
 }
-.midrise p{
+.broek1 p{
     width: 90%;
     color: #010A64;
 }
 
-.midrise li{
+.broek1 li{
     list-style-type: none;
     text-align: center;
 }
 
-.boyfriend{
+.broek2{
     width: 22.5%;
     align-items: center;
 }
-.boyfriend img{
+.broek2 img{
     display: block;
     width: 90%;
 }
 
-.boyfriend p{
+.broek2 p{
     width: 90%;
     color: #010A64;
 }
 
-.boyfriend li{
+.broek2 li{
     list-style-type: none;
     text-align: left;
 }
 
-.bootcut{
+.broek3{
     width: 22.5%;
 }
-.bootcut img{
+.broek3 img{
     display: block;
     width: 90%;
 }
 
-.bootcut p{
+.broek3 p{
     width: 90%;
     color: #010A64;
 }
 
-.bootcut li {
+.broek3 li {
     list-style-type: none;
     text-align: left;
 }
 
-.highwaist{
+.broek4{
     width: 22.5%;
 }
-.highwaist img {
+.broek4 img {
     display: block;
     width: 90%;
 }
-.highwaist p{
+.broek4 p{
     width: 90%;
     color: #010A64;
 }
-.highwaist li{
+.broek4 li{
     list-style-type: none;
     text-align: left;
 }
@@ -484,15 +490,14 @@ footer img {
 /* main vormgeving */
 .contact{
     display: block;
-    margin: 0 4.5em 4.5em 4.5em;
+    margin: 4.5em;
     width: 90%;
     background-color: #CF85CA;
-    border-right: solid #A40E87 3px;
+    /* border-right: solid #A40E87 3px;
     border-left: solid #A40E87 3px;
-    border-bottom: solid #A40E87 3px;
-    /* padding: 0.5em; */
+    border-bottom: solid #A40E87 3px; */
+    border: solid #A40E87 3px;
 }
-.contact form{
-    margin: 1em;
-    justify-content: center;
+.contact h1, p{
+    text-align: center;
 }
