@@ -3,11 +3,6 @@
     box-sizing: border-box;
 }
 
-.index h1,h2{
-    font-family: 'Funkhouse', cursive;
-    display: block;
-}
-
 body {
     background-color: #010A64;
     margin: 0;
@@ -16,6 +11,21 @@ body {
     border-radius: 50%;
 }
 
+h1, h2, h3{
+    font-family:'Funkhouse', cursive;
+    text-align: center;
+}
+h1{
+    font-size: 50px;
+}
+
+ul li {
+    list-style-type: none;
+    text-align: left;
+}
+ul li a{
+    text-decoration: none;
+}
 
 /*dit gaat over de nav */
 nav {
@@ -29,11 +39,6 @@ nav img {
 }
 
 
-/*  dit is de layout van de nav-bar zelf */
-nav li {
-    list-style-type: none;
-}
-
 /* Dit is de layout van de list */
 nav ul {
     margin-left: auto;
@@ -43,7 +48,7 @@ nav ul {
 }
 
 nav li a {
-    text-decoration: none;
+    /* text-decoration: none; */
     color: #010A64;
     background-color: #ECFA86;
     font-size: 17px;
@@ -71,7 +76,7 @@ nav ul li a:hover {
 }
 
 /* de linker column */
-.index section {
+.index section:first-child{
     width: 80%;
     background-color: #A40E87;
     border-left: solid #CF85CA 4px;
@@ -81,38 +86,62 @@ nav ul li a:hover {
 }
 
 .index h1{
-    font-size: 50px;
     margin: 0;
+    text-align: left;
 }
 .index h2 {
     margin-top: 0.5em;
     display: block;
+    text-align: left;
+}
+.index section section{
+    display: flex;
+ }
+.index section section p{
+    display: flex;
+    text-align: center;
+    padding: 2.5em;
+ }
+
+.index section section:nth-of-type(2) img:first-of-type{
+        width: 8%;
+        animation-name: bonk;
+        animation-duration: 1s;
+        animation-delay: 1s;
+}
+.index section section:nth-of-type(2) img{
+    width: 8%;
+    animation-name: bonk;
+    animation-duration: 1s;
+    animation-delay: 2s;
+}
+.index section section:nth-of-type(2) img:nth-of-type(3){
+    width: 8%;
+    animation-duration: 1s;
+    animation-delay: 3s;
+}
+.index section section:nth-of-type(2) img:nth-of-type(4){
+    width: 8%;
+    animation-duration: 1s;
+    animation-delay: 4s;
+}
+.index section section:nth-of-type(2) img:nth-of-type(5){
+    width: 8%;
+    animation-duration: 1s;
+    animation-delay: 5s;
+}
+.index section section:nth-of-type(2) img:nth-of-type(6){
+    width: 8%;
+    animation-duration: 1s;
+    animation-delay: 6s;
 }
 
-.fotoauto{
-    display: flex;
-}
-.fotoauto p{
-    padding: 1.5em;
-    text-align: center;
-}
 .index ul li a{
-    text-decoration: none;
     color: #8695fa;
 }
 
 .index ul li a:hover {
     color: #ECFA86;
-}
-.index li {
-    list-style-type: none;
-}
-
-.index main p {
-    margin-right: 5em;
-    margin-left: 5em;
-    font-weight: 700;
-    display: flex;
 }
 
 .index img {
@@ -122,13 +151,8 @@ nav ul li a:hover {
 .index .gifanouk {
     width: 40%;
 }
-.index h2{
-    text-align: left;
-}
-
 .index .button {
     font-size: 1em;
-    font-family: Consolas, Hack, "Liberation Mono", monospace;
     color: white;
     background-color: #CF85CA;
     padding: 0.5em;
@@ -225,21 +249,6 @@ footer p {
     text-align: center;
 }
 
-footer img {
-    width: 20px;
-}
-
-.back {
-    font-size: 1em;
-    font-family: Consolas, Hack, "Liberation Mono", monospace;
-    color: white;
-    background-color: #CF85CA;
-    padding: 0.5em;
-    border: solid #CF85CA 4px;
-    border-radius: 0.3em;
-    text-decoration: none;
-}
-
 @keyframes bonk {
     0% {
         transform: scale(1);
@@ -287,14 +296,6 @@ footer img {
     background-color: #A40E87;
     padding: 2em;
 }
-.favorieten h1, h2,h3{
-    font-family: 'Funkhouse', cursive;
-}
-
-.favorieten h1 {
-    text-align: center;
-    font-size: 50px;
-}
 
 .favorieten h2 {
     font-size: 40px;
@@ -313,10 +314,6 @@ footer img {
 .jurken p {
     padding-right: 6em;
     text-align: left;
-}
-
-.jurken ul li {
-    list-style-type: none;
 }
 
 .jurken2{
@@ -346,13 +343,8 @@ footer img {
 }
 
 .musthaves h1, h2,h3{
-    font-family: 'Funkhouse', cursive;
     display: block;
-    text-align: center;
-}
-
-.musthaves h1 {
-    font-size: 50px;
+    /* text-align: center; */
 }
 
 .musthaves h2 {
@@ -364,19 +356,18 @@ footer img {
     display: flex;
     justify-content: center;
 }
-
 /* animaties van https://codepen.io/IanLunn/pen/AxBReL */
 .broek1{
     display: block;
     width: 22.5%;
 }
 .broek1:hover{
-        display: inline-block;
-        transition-duration: .5s;
-        transition-property: transform;
-        transform: translateY(-10px);
-        animation-name: hover;
-        animation-duration: 1.5s;
+    display: inline-block;
+    transition-duration: .5s;
+    transition-property: transform;
+    transform: translateY(-10px);
+    animation-name: hover;
+    animation-duration: 1.5s;
 }
 .broek1 img{
     display: block;
@@ -388,7 +379,7 @@ footer img {
 }
 
 .broek1 li{
-    list-style-type: none;
+    /* list-style-type: none; */
     text-align: center;
 }
 
@@ -416,7 +407,6 @@ footer img {
 }
 
 .broek2 li{
-    list-style-type: none;
     text-align: left;
 }
 
@@ -442,7 +432,6 @@ footer img {
 }
 
 .broek3 li {
-    list-style-type: none;
     text-align: left;
 }
 .broek4{
@@ -465,7 +454,6 @@ footer img {
     color: #010A64;
 }
 .broek4 li{
-    list-style-type: none;
     text-align: left;
 }
 
@@ -490,9 +478,6 @@ footer img {
     display: block;
     width: 90%;
 }
-.jas1 li{
-    list-style-type: none;
-}
 .jas2{
     display: block;
     width: 22.5%;
@@ -508,9 +493,6 @@ footer img {
 .jas2 img{
     display: block;
     width: 90%;
-}
-.jas2 li{
-    list-style-type: none;
 }
 .jas3{
     display: block;
@@ -528,9 +510,6 @@ footer img {
     display: block;
     width: 90%;
 }
-.jas3 li{
-    list-style-type: none;
-}
 .jas4{
     display: block;
     width: 22.5%;
@@ -547,10 +526,6 @@ footer img {
     display: block;
     width: 90%;
 }
-.jas4 li{
-    list-style-type: none;
-}
-
 
 /* main vormgeving */
 .contact{
@@ -558,9 +533,6 @@ footer img {
     margin: 4.5em;
     width: 90%;
     background-color: #CF85CA;
-    /* border-right: solid #A40E87 3px;
-    border-left: solid #A40E87 3px;
-    border-bottom: solid #A40E87 3px; */
     border: solid #A40E87 10px;
 }
 .contact h1, p{
